@@ -1,0 +1,90 @@
+ body{
+  background-color:#7810e0 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container{
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+background: linear-gradient(145deg, #4a058d, #5806a8);
+box-shadow:  15px 15px 27px #3e0576,
+             -15px -15px 27px #6708c4;
+} 
+
+.todo-input{
+  background-color: #7810e0;
+  border: none;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+}
+
+.add-btn{
+  border: none;
+  padding: 10px;
+  background-color: #2bc552;
+}
+
+.del-all-btn{
+  border: none;
+  padding: 10px;
+  background-color: #c52b2b;
+  border-radius: 0 9px 8px 0;
+}
+
+.todo-list{
+  
+  list-style: none;
+  border-radius: 6px;
+background: #7810e0;
+box-shadow: inset 50px 50px 100px #7810e0,
+            inset -50px -50px 100px #7810e0;
+
+}
+
+.todo-item{
+  padding: 5px;
+  margin-left: -6.2px;
+  width: 250px;
+
+}
+
+.edit-input{
+  background-color: #7810e0;
+  border: none;
+  padding: 10px;
+  border-radius: 8px 0 0 8px;
+}
+
+.save-btn{
+  border: none;
+  padding: 10px;
+  background-color: #2bc552;
+}
+
+.edit-btn{
+  border: none;
+  padding:5px 10px;
+  border-radius: 5px 0 5px 0 ;
+  background-color: #133cc2;
+}
+
+.delete-btn{
+  margin-left: 5px;
+  border: none;
+  padding:5px 10px;
+  border-radius: 5px 0 5px 0 ;
+  background-color: #c21313;
+}
+
+.todo-element{
+  border: 2px solid #4a058d;
+  padding: 5px 0;
+  margin: 0 0 6px ;
+  border-radius: 5px;
+  font-style: italic;
+  
+}
